@@ -2,8 +2,8 @@ from pyvotal_tracker import PivotalTrackerAPI
 
 def main():
     # QUICK MASSIVE TEST METHOD
-    token = '356cab1f443ae16ca664202eae4d3552'
-    project_id = '2033151'
+    token = 'MY_TOKEN'
+    project_id = 'MY_PROJECT_ID'
     timestamp = '2021-12-01T00:00:00Z'
     pt = PivotalTrackerAPI(token)
     my_account = pt.get_my_account() 
